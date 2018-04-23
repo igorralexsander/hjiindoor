@@ -3,8 +3,7 @@ version: 0.2
 phases:
   build:
     commands:
-      chmod +x gradlew
-      - ./gradlew assembleDebug
+      chmod +x gradlew assembleDebug
 artifacts:
   files:
     - app/build/outputs/apk/app-debug.apk
