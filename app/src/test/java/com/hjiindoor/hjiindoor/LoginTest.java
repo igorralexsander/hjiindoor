@@ -10,7 +10,7 @@ public class LoginTest {
 
     @Test
     public void efetuarLoginTest(){
-        String login = "igorr";
+        String login = "igor";
         String senha = "123456";
         LoginController loginController = new LoginController();
         Usuario usuario = loginController.Login(login, senha);
