@@ -5,6 +5,5 @@ phases:
     commands:
       - ./gradlew assembleDebug
 artifacts:
-  discard-paths: yes
   files:
     - app/build/outputs/apk/app-debug.apk
